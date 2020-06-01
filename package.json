@@ -2,13 +2,12 @@
   "name": "tilerthecreator",
   "version": "1.0.0",
   "description": "A Simple utility library to make working with Tactile.js simpler for people who want to Tile something quickly.",
-  "scripts": {
-    "test": "node testTiler.js"
-  },
   "type": "module",
-  "dependencies": {
-    "tactile-js": "https://github.com/isohedral/tactile-js"
+  "scripts": {
+    "install": "napa isohedral/tactile-js",
+    "test": "node --experimental-modules testTiler.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bryanrasmussen/TilerTheCreator.git"
@@ -23,9 +22,10 @@
   },
   "homepage": "https://github.com/bryanrasmussen/TilerTheCreator#readme",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.5"
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "napa": "^3.0.0"
   }
 }
