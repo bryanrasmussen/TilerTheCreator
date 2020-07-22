@@ -7,7 +7,6 @@
     "install": "napa isohedral/tactile-js",
     "test": "node --experimental-modules testTiler.js"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bryanrasmussen/TilerTheCreator.git"
