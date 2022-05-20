@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/bryanrasmussen/TilerTheCreator#readme",
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
+    "@babel/cli": "^7.17.10",
     "@babel/core": "^7.10.2",
     "@babel/node": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "napa": "^3.0.0"
+  },
+  "dependencies": {
+    "tactile-js": "^1.0.0"
   }
 }
